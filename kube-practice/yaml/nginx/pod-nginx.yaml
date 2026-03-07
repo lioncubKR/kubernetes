@@ -10,3 +10,6 @@ spec:
       image: nginx
       ports:
         - containerPort: 80
+
+#ローカルからnginxに接続したい場合
+#sudo kubectl port-forward pod/[pod名] [ローカルポート]:[パッドポート]
